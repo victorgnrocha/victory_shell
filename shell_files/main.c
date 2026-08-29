@@ -34,6 +34,9 @@ int main ()
             break;
         }
 
+        char *token = strtok(input, " ");
+
+
         printf("%s", input);
 
     }
